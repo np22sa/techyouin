@@ -14,23 +14,23 @@
     <title>tech you in | Introducing VR to kids</title>
 </head>
 
-<body>
+<body id="header">
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
         <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon">&nbsp;</span>
-            </label>
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
 
         <div class="navigation__background">&nbsp;</div>
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>Home</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Workshops</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Testimonials</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Team</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contacts</a></li>
+                <li class="navigation__item"><a href="#header" class="navigation__link"><span>01</span>Home</a></li>
+                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>02</span>What we do</a></li>
+                <li class="navigation__item"><a href="#section-features" class="navigation__link"><span>03</span>Workshop</a></li>
+                <li class="navigation__item"><a href="#section-tours" class="navigation__link"><span>04</span>Team</a></li>
+                <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>05</span>Contacts</a></li>
             </ul>
         </nav>
     </div>
@@ -46,12 +46,12 @@
                 <span class="heading-primary--sub">Introducing VR to kids</span>
             </h1>
 
-            <a href="#" class="btn btn--white btn--animated">Discover our workshops</a>
+            <a href="#section-features" class="btn btn--white btn--animated">Discover our workshop</a>
         </div>
     </header>
 
     <main>
-        <section class="section-about">
+        <section class="section-about" id="section-about">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     WHAT WE DO?
@@ -71,7 +71,7 @@
                         Personalize the headset using colored pencils, markers and paintings.
                     </p>
 
-                    <a href="#" class="btn-text">Learn more &rarr;</a>
+                    <!-- <a href="./img/assemblingOfGoogleHeadboard.pdf" target="blank" class="btn-text">Headset assembly &rarr;</a> -->
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <section class="section-features">
+        <section class="section-features" id="section-features">
 
             <div class="row">
                 <div class="col-1-of-4">
@@ -130,12 +130,16 @@
                         <p class="feature-box__text">
                             Share your work and knowledge with family and colleagues by downloading the papercardboard template and recreating the VR Headset. Show them how to use the software and keep exploring.
                         </p>
+                        <br>
+                        <a href="./img/assemblingOfGoogleHeadboard.pdf" target="blank" class="btn-text">Headset assembly &rarr;</a>
+                        <br><br>
+                        <a href="./img/StoryboardTechYouIn.pdf" target="blank" class="btn-text">Storyboard cards &rarr;</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section-tours">
+        <section class="section-tours" id="section-tours">
 
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
@@ -146,7 +150,39 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img">
+                        <img src="img/nat-11.jpg" alt="John Munoz" class="story__img">
+                        <figcaption class="story__caption">John Muñoz</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">HCI Researcher</h3>
+                        <p>
+                            John Muñoz graduated from the Technological University of Pereira (Colombia) and PhD student at the University of Madeira (Portugal). He has been working on the use of video games and low-cost brain-machine interfaces to complement conventional rehabilitation
+                            therapies. Currently focusing in the rehabilitation of children with attention deficit and hyperactivity disorder, with which they exercise their ability to concentrate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/nat-9.jpg" alt="Sandra Camara" class="story__img">
+                        <figcaption class="story__caption">Sandra Câmara</figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Entertainment Tech Master</h3>
+                        <p>
+                            Sandra Câmara is currently working as a research assistant at the Madeira Interactive Technologies Institute. She used to be an art and computer science teacher that afterwards went into developing educative games for kindergarten students. Following
+                            this, she enrolled in the Masters of Entertainment Technology, which allowed her to further develop skills in the areas of game design, human computer interaction, interaction design and multicultural teamwork.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="img/nat-8.jpg" alt="Marco Olim" class="story__img">
                         <figcaption class="story__caption">Marco Olim</figcaption>
                     </figure>
                     <div class="story__text">
@@ -160,28 +196,12 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="story">
-                    <figure class="story__shape">
-                        <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img">
-                        <figcaption class="story__caption">Sandra Câmara</figcaption>
-                    </figure>
-                    <div class="story__text">
-                        <h3 class="heading-tertiary u-margin-bottom-small">Entertainment Tech Master</h3>
-                        <p>
-                            Sandra Câmara is currently working as a research assistant at the Madeira Interactive Technologies Institute. She used to be an art and computer science teacher that afterwards went into developing educative games for kindergarten students. Following
-                            this, she enrolled in the Masters of Entertainment Technology, which allowed her to further develop skills in the areas of game design, human computer interaction, interaction design and multicultural teamwork.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             <div class="u-center-text u-margin-top-huge">
-                <a href="#" class="btn-text">All Team Members &rarr;</a>
+                <!-- <a href="#" class="btn-text">All Team Members &rarr;</a> -->
             </div>
         </section>
 
-        <section class="section-book">
+        <section class="section-book" id="section-book">
             <div class="row">
                 <div class="book">
                     <div class="book__form">
@@ -245,11 +265,11 @@
             <div class="col-1-of-2">
                 <div class="footer__navigation">
                     <ul class="footer__list">
-                        <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Workshops</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Testimonials</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Team</a></li>
-                        <li class="footer__item"><a href="#" class="footer__link">Contacts</a></li>
+                        <li class="footer__item"><a href="#header" class="footer__link">Home</a></li>
+                        <li class="footer__item"><a href="#section-about" class="footer__link">What we do</a></li>
+                        <li class="footer__item"><a href="#section-features" class="footer__link">Workshop</a></li>
+                        <li class="footer__item"><a href="#section-tours" class="footer__link">Team</a></li>
+                        <li class="footer__item"><a href="#section-book" class="footer__link">Contacts</a></li>
                     </ul>
                 </div>
             </div>
